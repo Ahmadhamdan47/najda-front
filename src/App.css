@@ -35,4 +35,69 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
+/* Global styling for Arabic right-to-left layout */
+body {
+  direction: rtl;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+  background-color: #575757;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  color: #333;
+}
+
+.welcome p {
+  color: #555;
+}
+
